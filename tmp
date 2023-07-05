@@ -1,0 +1,45 @@
+pip installでエラーになりインストールできない場合（Windows）
+https://gammasoft.jp/support/pip-install-error/
+
+pip install を手動でローカルにダウンロードしたファイルで行う方法
+https://gammasoft.jp/blog/pip-install-from-local-archives-by-manually/
+
+・バージョン管理とは
+https://www.hivelocity.co.jp/blog/33793/
+
+・gitとは
+https://kitsune.blog/git-summary
+
+
+【code commit始めるための準備】
+・Git 認証情報を使用した HTTPS ユーザーのセットアップ★前提条件記載
+https://docs.aws.amazon.com/ja_jp/codecommit/latest/userguide/setting-up-gc.html
+
+・gitに接続するたびパスワード入力が求められる場合、パスワード入力を省略する方法（git側の設定）
+https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+
+
+・AWS Toolkit for Visual Studioをインストール(VSを使うためのツール)
+https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/getting-set-up.html
+
+（・Visual Studioを AWS CodeCommitと統合する）
+https://docs.aws.amazon.com/ja_jp/codecommit/latest/userguide/setting-up-ide-vs.html
+
+・AWS Toolkit for Visual Studioのインストール
+https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/getting-set-up.html
+
+
+【code_commmitのチュートリアル】
+https://docs.aws.amazon.com/ja_jp/codecommit/latest/userguide/getting-started-cc.html
+
+【.vsフォルダをgit管理対象から除外する】
+※vsから直接.vsフォルダを右クリック、「このローカル項目を無視」を選択するでもいけそう
+https://qiita.com/ameoji/items/6c8dd4a97ebd5748eaf0
+
+
+
+【前提条件】
+AWS側
+・ユーザーに権限付与
+（IAMでユーザを選択→アクセス許可の付与→既存のポリシーを直接アタッチする→[AWSCodeCommitPowerUser]）
+・gitのインストール
